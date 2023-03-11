@@ -1,0 +1,18 @@
+{
+  "option_operagx_version": "0.0.0.1",
+  "option_operagx_next_version": "0.0.0.2",
+  "option_operagx_game_name": "AlfiesRPG",
+  "option_operagx_interpolate_pixels": true,
+  "option_operagx_scale": 0,
+  "option_operagx_texture_page": "2048x2048",
+  "option_operagx_display_cursor": true,
+  "option_operagx_guid": "78a38a0e-da35-45d4-a7bc-507a7c979bf8",
+  "option_operagx_team_name": "(68a0368e-7847-4fac-b986-0974682753f4) studio",
+  "option_operagx_editUrl": "https://dc.gxc.gg/game/78a38a0e-da35-45d4-a7bc-507a7c979bf8/edit",
+  "option_operagx_internalShareUrl": "https://gxc.gg/games/zgu09r/alfiesrpg/tracks/13410bff-2491-4307-b2ac-79f1e1032f2b/",
+  "option_operagx_publicShareUrl": "",
+  "resourceVersion": "1.0",
+  "name": "operagx",
+  "tags": [],
+  "resourceType": "GMOperaGXOptions",
+}
