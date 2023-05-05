@@ -7,6 +7,7 @@ button[0] = "Play";;
 button[1] = "How to Play?";
 button[2] = "Credits";
 button[3] = "Close Game";
+button[4] = "Go To TEST ROOM"
 buttons = array_length_1d(button);
 
 menu_index = 0;

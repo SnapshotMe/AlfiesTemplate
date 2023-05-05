@@ -52,7 +52,36 @@ switch(_text_id) {
 		scr_text("thats a WALL!                                      -a friend")
 		scr_text_float(8, 13); 
 		break;		
-	 
+	case "present":
+		scr_text("⁃ Will you open this box?")
+		scr_option("Yes", "yes")
+		scr_option("No", "no")
+		break
+        case "yes":
+			if (array_length(obj_item_manager.inv) < obj_item_manager.inv_max)
+            {
+               scr_text("⁃ you found 3 burgers!")
+               with (obj_present)
+               {
+					item_add(item)
+					item_add(item) //can be set inside obj_present's create event
+					item_add(item)
+                    image_index = 1
+                    audio_play_sound(snd_menu_switch, 1, false);
+                }
+            }
+            else
+            {
+                scr_text("⁃ your inventory is full.")
+                audio_play_sound(snd_txt, 1, false);
+            }
+            break
+        case "no":
+            instance_destroy()
+            break	
+		case "redkeysign":
+			scr_text("-You can open this door with red key!");
+			break;
 	
 		
 	}

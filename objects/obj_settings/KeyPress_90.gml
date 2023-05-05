@@ -14,4 +14,7 @@ switch(menu_index)
 	case 3:
 	game_end();
 	break;
+	case 4:
+	room_goto(room_teststuff)
+	break;
 	}

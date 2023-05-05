@@ -1,4 +1,5 @@
 accept_key = keyboard_check_pressed(ord("Z")) or keyboard_check_pressed(vk_enter)
+skip_key = keyboard_check_pressed(ord("X")) or keyboard_check_pressed(vk_shift)
 
 textbox_x = camera_get_view_x( view_camera[0] ) + 0;
 textbox_y = camera_get_view_y( view_camera[0] ) + 170;
@@ -172,17 +173,18 @@ if accept_key
 			}
 			
 		}
-		
-	//if not done typing
-	else
+	
+	}
+if skip_key
+	{
+	
+	//if type is not done
+	if draw_char < text_length[page]
 		{
-			
-		draw_char = text_length[page];
-		
+		draw_char = text_length[page]
 		}
 	
 	}
-
 
 
 

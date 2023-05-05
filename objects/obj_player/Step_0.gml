@@ -2,17 +2,26 @@ right_key = keyboard_check(vk_right) || keyboard_check(ord("D"))
 left_key = keyboard_check(vk_left) || keyboard_check(ord("A"))
 up_key = keyboard_check(vk_up) || keyboard_check(ord("W"))
 down_key = keyboard_check(vk_down) || keyboard_check(ord("S"))
+run_key = (keyboard_check(vk_shift)) || keyboard_check(ord("X"))
 
-	
-if instance_exists(obj_textbox)
+if instance_exists(obj_textbox) 
 	{
-	move_spd = 0;
+		move_spd = 0;
 	}
-	if (!instance_exists(obj_textbox))
+else 
 	{
-		move_spd = 1;
-	}
-	
+		move_spd = 1
+	}	
+if run_key && (!instance_exists(obj_textbox))
+{
+	move_spd = 2;
+	image_speed = 2;
+}	
+if !run_key && (!instance_exists(obj_textbox))
+{
+	move_spd = 1;
+	image_speed = 1;
+} 
 
 //get xspd and yspd
 xspd = (right_key - left_key) * move_spd;

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "ward",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -103,15 +106,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"839464f8-e3a0-4d74-bcd4-547fcff865d3","path":"sprites/ward/ward.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"839464f8-e3a0-4d74-bcd4-547fcff865d3","path":"sprites/ward/ward.yy",},"LayerId":{"name":"b9490004-8b71-42cf-a863-7fbd31305c27","path":"sprites/ward/ward.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"ward","path":"sprites/ward/ward.yy",},"resourceVersion":"1.0","name":"839464f8-e3a0-4d74-bcd4-547fcff865d3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"94e62075-4d68-4410-9cc3-684277c3ca2f","path":"sprites/ward/ward.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"94e62075-4d68-4410-9cc3-684277c3ca2f","path":"sprites/ward/ward.yy",},"LayerId":{"name":"b9490004-8b71-42cf-a863-7fbd31305c27","path":"sprites/ward/ward.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"ward","path":"sprites/ward/ward.yy",},"resourceVersion":"1.0","name":"94e62075-4d68-4410-9cc3-684277c3ca2f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"839464f8-e3a0-4d74-bcd4-547fcff865d3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"94e62075-4d68-4410-9cc3-684277c3ca2f",},
   ],
   "sequence": {
-    "spriteId": {"name":"ward","path":"sprites/ward/ward.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "ward",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -122,10 +123,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8d4c5a6e-f33e-4ebd-b4fd-142790b2872d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"839464f8-e3a0-4d74-bcd4-547fcff865d3","path":"sprites/ward/ward.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cf7e0d0e-88d4-454e-aacd-69476b8e5bee","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"94e62075-4d68-4410-9cc3-684277c3ca2f","path":"sprites/ward/ward.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -141,22 +142,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"ward","path":"sprites/ward/ward.yy",},
-    "resourceVersion": "1.4",
-    "name": "ward",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b9490004-8b71-42cf-a863-7fbd31305c27","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b9490004-8b71-42cf-a863-7fbd31305c27","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ward",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
