@@ -278,6 +278,5 @@ for(var c = 0; c < draw_char; c++)
 		}
 	
 	//the text
-	draw_text_color( char_x[c, page], char_y[c, page] + _float_y, char[c, page], col_1[c, page], col_2[c, page], col_3[c, page], col_4[c, page], 1);
-	
+	draw_text_color( char_x[c, page] + _shake_x, char_y[c, page] + _float_y + _shake_x, char[c, page], col_1[c, page], col_2[c, page], col_3[c, page], col_4[c, page], 1);
 	}
