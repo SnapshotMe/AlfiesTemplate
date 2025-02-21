@@ -1,5 +1,4 @@
-I created this RPG project as a template using Peyton Burnham's tutorials by his videos 
-feel free to edit or use (also seems like undertale)
+This RPG project was created as a template, based on Peyton Burnham's tutorials Feel free to edit or use it
 
 GAMEMAKER VERSION 
 
